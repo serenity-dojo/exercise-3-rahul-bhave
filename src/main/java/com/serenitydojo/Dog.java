@@ -1,6 +1,7 @@
 package com.serenitydojo;
 
 public class Dog {
+    //creating new class variables
     private String name;
     private String favouriteToy;
     private int age;

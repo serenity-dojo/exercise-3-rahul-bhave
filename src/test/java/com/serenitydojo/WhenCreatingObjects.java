@@ -7,9 +7,9 @@ import org.junit.Test;
 public class  WhenCreatingObjects {
     @Test
     public void shouldCreateADogObject() {
-        Dog dog = new Dog("Fido", "Bone", 5);
+        Dog dog = new Dog("Fido", "Bone", 3);
         Assert.assertEquals("Fido", dog.getName());
         Assert.assertEquals("Bone", dog.getFavouriteToy());
-        Assert.assertEquals(5, dog.getAge());
+        Assert.assertEquals(3, dog.getAge());
     }
 }
